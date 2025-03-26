@@ -1,0 +1,18 @@
+{
+  "name": "basic_experiment",
+  "n_samples": 200,
+  "function": "linear",
+  "model": {
+    "input_dim": 1,
+    "output_dim": 1,
+    "hidden_layers": 2,
+    "hidden_units": 16,
+    "hidden_activation": "relu",
+    "output_activation": "linear"
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 100,
+    "learning_rate": 0.001
+  }
+}
